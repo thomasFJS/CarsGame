@@ -1,0 +1,8 @@
+pygame
+random2
+os_sys
+python-time
+opencv-python
+pynput
+numpy
+imutils
