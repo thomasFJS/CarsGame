@@ -28,15 +28,6 @@ actions = ['', '']
 
 cv2.namedWindow('mask')
 
-
-# use this for getting your own threshold values for whatever color
- # cv2.createTrackbar('lower_b_0', 'mask', lb[0], 255, (lambda a: set_lb(0, a)))
- # cv2.createTrackbar('lower_b_1', 'mask', lb[1], 255, (lambda a: set_lb(1, a)))
-# cv2.createTrackbar('lower_b_2', 'mask', lb[2], 255, (lambda a: set_lb(2, a)))
-# cv2.createTrackbar('upper_b_0', 'mask', rb[0], 255, (lambda a: set_rb(0, a)))
-# cv2.createTrackbar('upper_b_1', 'mask', rb[1], 255, (lambda a: set_rb(1, a)))
-# cv2.createTrackbar('upper_b_2', 'mask', rb[2], 255, (lambda a: set_rb(2, a)))
-
 def press_key(key): #Press a key 
     keyboard.press(key)
 
